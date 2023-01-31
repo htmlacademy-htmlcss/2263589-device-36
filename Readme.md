@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Максим Кукарцев](https://up.htmlacademy.ru/htmlcss/36/user/2263589).
-* Наставник: Андрей Даниленко (https://htmlacademy.ru/profile/id1205385).
+* Наставник: [Андрей Даниленко] (https://htmlacademy.ru/profile/id1205385).
 
 ---
 
