@@ -380,6 +380,30 @@ body {
   color: var(--text-black-primary);
 }
 
+.top-of-mailing-list,
+.bottom-of-mailing-list {
+  display: flex;
+  align-items: center;
+}
+
+.mailing-list-title {
+  width: 348px;
+}
+
+.mailing-list-discription {
+  width: 560px;
+  margin-left: auto;
+}
+
+.mailing-list-form {
+  width: 810px;
+}
+
+.mailing-list-mark {
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
 .about-company-description {
   color: var (--text-grey-primary);
 
@@ -423,6 +447,35 @@ body {
   margin: 0;
 }
 
+.contacts-subtitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.contacts-schedule {
+  padding: 0;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.comunication {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-black-primary);
+  background: (--bg-yellow-primary);
+  text-decoration: none;
+}
+
+.mailing-list {
+  color: var(--text-grey-primary);
+  background-color: (--bg-grey-primary);
+}
+
 .main-inner {
     background-color: var(--bg-grey-primary);
 }
@@ -452,7 +505,7 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: var(--text-black-primary);
 }
 
 .breadcrumbs-item {
