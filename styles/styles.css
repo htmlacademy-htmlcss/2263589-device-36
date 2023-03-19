@@ -82,6 +82,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 53px;
+    translate: 0px -6px;
 }
 
 .header-search-wrapper {
@@ -144,6 +145,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    translate: 0px 6px;
+}
+
+.icon-enter{
+    
+}
+
+.icon-srav{
+    translate: -8px -1px;
+}
+
+.icon-basket{
+    translate: -8px -1px;
 }
 
 .catalog-button {
@@ -159,7 +173,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    letter-spacing: 0.2em;
     gap: 51px;
+    translate: 4px 1px;
 }
 
 .page-navigation-item {
@@ -168,6 +184,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 
@@ -206,6 +223,9 @@ body {
     color: var(--text-black-primary);
 }
 
+.slider-card{
+    translate: 0px -62px;
+}
 
 /* slider card */
 
@@ -254,6 +274,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    translate: 0px 32px;
 }
 
 .slider-item {}
@@ -277,7 +298,7 @@ body {
 }
 
 .about-product-wrapper {
-    margin-top: 60px;
+    margin-top: 50px;
     padding: 5px 10px;
     transition: 0.8s;
     position: relative;
@@ -294,6 +315,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 40px;
+    translate: 0px -42px;
 }
 
 .product-categories-link {
@@ -313,6 +335,11 @@ body {
     line-height: 24px;
     letter-spacing: -0.02em;
     color: var(--text-black-primary);
+    translate: 0px 14px;
+}
+
+.catalog-image-selfi{
+    translate: 0px 21px;
 }
 
 .icon {
@@ -345,7 +372,7 @@ body {
 .extra-info {
     position: relative;
     background-color: var(--bg-grey-primary);
-    padding-bottom: 72px;
+    translate: -60px -25px;
 }
 
 .extra-info::before {
@@ -425,6 +452,7 @@ body {
 
 .extra-description-icon {
     position: relative;
+    translate: -3px 4px;
 }
 
 .extra-description-text {}
@@ -474,6 +502,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--text-black-primary);
@@ -489,6 +518,7 @@ body {
     min-height: 100px;
     text-transform: uppercase;
     text-decoration: none;
+    translate: 0px 68px;
 }
 
 .delivery-link-left {
@@ -524,12 +554,13 @@ body {
 .info {
     width: 520px;
     margin-right: 108px;
+    translate: 0px 73px;
 }
 
 .common-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 70px;
+    padding-bottom: 33px;
 }
 
 
@@ -556,15 +587,19 @@ body {
     align-items: center;
 }
 
+.top-of-mailing-list{
+    padding-bottom: 22px;
+}
+
 .mailing-list-title {
     width: 348px;
-    padding-top: 64px;
+    translate: 7px 62px;
 }
 
 .mailing-list-discription {
-    width: 560px;
+    width: 527px;
     margin-left: auto;
-    padding-top: 74px;
+    translate: -26px 68px;
 }
 
 .mailing-list-form {
@@ -589,7 +624,7 @@ body {
     font-size: 18px;
     line-height: 30px;
     padding: 11px 0 14px 16px;
-    width: 557px;
+    width: 542px;
     color: #444444 50%;
     border: none;
     border-bottom: 3px solid var(--bg-lightgrey-primary);
@@ -597,11 +632,11 @@ body {
 }
 
 .subscribe-button {
-    padding: 10px 56px;
+    padding: 0px 36px;
+    width: 253px;
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
     letter-spacing: 0.2em;
     cursor: pointer;
     border: 3px solid var(--bg-lightgrey-primary);
@@ -616,12 +651,14 @@ body {
     width: 497px;
     padding: 0;
     margin-bottom: 30px;
+    translate: 0px 7px;
 }
 
 .delivery-ways-list {
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.02em;
+    translate: -2px 5px
 }
 
 .delivery-ways-item {
@@ -631,21 +668,34 @@ body {
 .contacts {
     color: var(--text-grey-primary);
     width: 532px;
+    translate: 0px 73px;
 }
 
 .contacts-address-text {
     margin: 0;
+    
+}
+
+.contacts-description{
+    translate: 0px 6px;
+    padding-bottom: 15px;
+}
+
+.contacts-address{
+    translate: 0px -6px;
 }
 
 .contacts-subtitle {
     margin-top: 30px;
     margin-bottom: 15px;
+    translate: 0px -7px;
 }
 
 .contacts-schedule {
     padding: 0;
     margin-bottom: 30px;
     list-style-type: none;
+    translate: 0px -9px;
 }
 
 .comunication {
@@ -709,6 +759,7 @@ body {
     transition: 0.8s;
     position: relative;
     display: inline-block;
+    translate: 0px -68px;
 }
 
 .write-us-yellow {
@@ -746,6 +797,7 @@ body {
     transition: 0.8s;
     position: relative;
     display: inline-block;
+    translate: 0px -44px;
 }
 
 .about-us-yellow {
@@ -1094,7 +1146,8 @@ body {
     margin: 0;
     align-items: center;
     justify-content: center;
-    gap: 35px;
+    gap: 31px;
+    translate: -10px -7px;
 }
 
 .footer-media-item {
@@ -1129,6 +1182,7 @@ body {
     padding: 0;
     justify-content: center;
     margin: 0;
+    translate: 33px 15px;
 }
 
 .social-media-item {}
@@ -1140,6 +1194,7 @@ body {
     color: white;
     font-size: 16px;
     line-height: 20px;
+    translate: 45px -4px
 }
 
 .executor-logo {

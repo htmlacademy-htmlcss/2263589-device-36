@@ -14,17 +14,30 @@
                 <form class="header-search">
                     <div class="header-search-wrapper">
                         <input class="header-search-input" name="search" placeholder="Поиск по сайту" type="search">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.7 14.3L12.6 11.2C13.5 10 14 8.6 14 7C14 3.1 10.9 0 7 0C3.1 0 0 3.1 0 7C0 10.9 3.1 14 7 14C8.6 14 10 13.5 11.2 12.6L14.3 15.7C14.5 15.9 14.7 16 15 16C15.6 16 16 15.6 16 15C16 14.8 15.9 14.5 15.7 14.3ZM2 7C2 4.2 4.2 2 7 2C9.8 2 12 4.2 12 7C12 9.8 9.8 12 7 12C4.2 12 2 9.8 2 7Z" fill="black" /> </svg>
                         <button class="header-search-button" type="submit">Найти</button>
                     </div>
                 </form>
                 <ul class="header-list-top">
-                    <li class="header-item-top"> <a class="header-link-top" href="#">
-                                Войти
-                            </a> </li>
-                    <li class="header-item-top"> <a class="header-link-top" href="#">
-                                Сравнить
-                            </a> </li>
-                    <li class="header-item-top"> <a class="header-link-top" href="#"> Корзина</a> </li>
+                    <li class="header-item-top">
+                        <a class="header-link-top" href="#">
+                            <svg class="icon-enter" width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 12H13C12.8 9.4 10.9 7.2 8.3 6.5C9.3 5.9 10 4.8 10 3.5C10 1.6 8.4 0 6.5 0C4.6 0 3 1.6 3 3.5C3 4.8 3.7 5.9 4.7 6.5C2.1 7.2 0.2 9.4 0 12Z" fill="black" /> </svg> Войти </a>
+                    </li>
+                    <li class="header-item-top">
+                        <a class="header-link-top" href="#">
+                            <svg class="icon-srav" width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 0H4V12H6V0Z" fill="black" />
+                                <path d="M2 4H0V12H2V4Z" fill="black" />
+                                <path d="M10 3H8V12H10V3Z" fill="black" /> </svg> Сравнить </a>
+                    </li>
+                    <li class="header-item-top">
+                        <a class="header-link-top" href="#">
+                            <svg class="icon-basket" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.3 5L11.8 5.2L8.6 0.3C8.5 0.1 8.2 0 8 0C7.8 0 7.5 0.1 7.4 0.3L4.2 5.2H0.7C0.3 5.2 0 5.5 0 5.9C0 6 0 6 0 6.1L1.9 12.9C2.1 13.6 2.6 14 3.3 14H12.7C13.4 14 13.9 13.6 14.1 12.9L16 6C16 5.9 16 5.9 16 5.8C16 5.4 15.7 5 15.3 5ZM8 1.9L10.2 5.1H5.9L8 1.9Z" fill="black" /> 
+                                </svg> Корзина</a>
+                    </li>
                 </ul>
             </div>
             <div class="bottom-of-the-header">
@@ -81,8 +94,7 @@
                         <div class="about-product-wrapper">
                             <div class="about-product-yellow"></div> <a class="about-product" href="#">
                                     подробнее
-                                </a> 
-                                </div>
+                                </a> </div>
                         <ul class="slider-list">
                             <li class="slider-item">
                                 <p class="slider-description"> <span class="slider-item-characteristic">800 м</span>
@@ -108,7 +120,7 @@
                         <p class="product-categories-description"> Виртуальная реальность </p>
                     </li>
                     <li class="product-categories-item">
-                        <a class="product-categories-link" href="#"><img class="catalog-image" alt="Моноподы для селфи" src="images/category-2.png"></a>
+                        <a class="product-categories-link" href="#"><img class="catalog-image-selfi" alt="Моноподы для селфи" src="images/category-2.png"></a>
                         <p class="product-categories-description"> Моноподы для селфи </p>
                     </li>
                     <li class="product-categories-item">
@@ -194,12 +206,10 @@
                     <li class="delivery-ways-item"> Меловые линии </li>
                     <li class="delivery-ways-item"> СДИК </li>
                     <li class="delivery-ways-item"> ТоксБерри </li>
-                </ul> 
+                </ul>
                 <div class="about-us-wrapper">
-                <div class="about-us-yellow"></div>
-                <a class="about-us" href="#">Подробенее о нас</a>
-                </div>
-                </section>
+                    <div class="about-us-yellow"></div> <a class="about-us" href="#">Подробенее о нас</a> </div>
+            </section>
             <section class="contacts">
                 <h2 class="contacts-title">Контакты</h2>
                 <p class="contacts-description"> Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки. </p>
@@ -211,18 +221,18 @@
                 <ul class="contacts-schedule">
                     <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
                     <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
-                </ul> <div class="write-us-wrapper">
-                            <div class="write-us-yellow"></div> <a class="write-us" href="#">
+                </ul>
+                <div class="write-us-wrapper">
+                    <div class="write-us-yellow"></div> <a class="write-us" href="#">
                                     Напиши нам
-                                </a> 
-                                </div> </section>
+                                </a> </div>
+            </section>
         </section>
         <section class="mailing-list">
             <div class="container">
                 <div class="top-of-mailing-list">
                     <h2 class="mailing-list-title">Подпишитесь на рассылку</h2>
-                    <p class="mailing-list-discription"> Еженедельный дайджест с обзорами новинок,
-                        <br> длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё. </p>
+                    <p class="mailing-list-discription"> Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё. </p>
                 </div>
                 <form>
                     <div class="subscribe-email-wrapper">
