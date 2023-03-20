@@ -1003,6 +1003,41 @@ body {
     margin: 25px 60px;
 }
 
+.range-scale {
+    margin-top: 30px;
+    position: relative;
+    height: 2px;
+    margin-bottom: 16px;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+}
+
+.range-bar {
+    position: absolute;
+    height: 2px;
+    background-color: var(--bg-black-primary);
+}
+
+.range-toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border: 2px solid var(--bg-black-primary);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toggle-min {
+    top: -8px;
+    left: -10px;
+}
+
+.toggle-max {
+    top: -8px;
+    right: -10px;
+}
+
 .catalog-filter-group-wrapper {
     padding: 12px 0 35px;
     border-top: 2px solid var(--bg-black-primary);
