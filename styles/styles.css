@@ -158,7 +158,7 @@ body {
     
 }
 
-.icon-srav{
+.icon-compare{
     translate: -8px -1px;
 }
 
@@ -565,6 +565,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 33px;
+}
+
+.contacts-phone{
+    font-style: normal;
+    color: var(--text-black-primary);
 }
 
 
