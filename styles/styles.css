@@ -68,6 +68,23 @@ body {
 
 .page-header-container {
     padding: 50px 60px;
+    position: relative;
+}
+
+.number {
+    width: 250px;
+    padding: 0px;
+    height: 135px;
+    left: 1001px;
+    top: 219px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 180px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
 }
 
 .navigation-logo {
@@ -85,13 +102,14 @@ body {
     translate: 0px -6px;
 }
 
-.header-search-wrapper {    
+.header-search-wrapper {
     border-radius: 20px;
     border: 2px solid var(--bg-black-primary);
-    display: flex;
+    display: grid;
+    grid-template-columns: 353px 158px;
 }
 
-.icon-search{
+.icon-search {
     position: absolute;
     left: -343px;
 }
@@ -102,7 +120,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    padding: 10px 0 10px 48px;
+    padding: 10px 0 10px 45px;
     width: 100%;
     border: none;
     background: none;
@@ -129,7 +147,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 61px;
+    gap: 42px;
 }
 
 .header-item-top:nth-last-child(3) {
@@ -154,15 +172,11 @@ body {
     translate: 0px 6px;
 }
 
-.icon-enter{
-    
-}
-
-.icon-compare{
+.icon-compare {
     translate: -8px -1px;
 }
 
-.icon-basket{
+.icon-basket {
     translate: -8px -1px;
 }
 
@@ -180,8 +194,10 @@ body {
     justify-content: space-between;
     align-items: center;
     letter-spacing: 0.2em;
-    gap: 51px;
+    gap: 46px;
     translate: 4px 1px;
+    max-width: 500px;
+    flex-wrap: wrap;
 }
 
 .page-navigation-item {
@@ -229,9 +245,10 @@ body {
     color: var(--text-black-primary);
 }
 
-.slider-card{
+.slider-card {
     translate: 0px -62px;
 }
+
 
 /* slider card */
 
@@ -342,7 +359,7 @@ body {
     translate: 0px 14px;
 }
 
-.catalog-image-selfi{
+.catalog-image-selfi {
     translate: 0px 21px;
 }
 
@@ -567,7 +584,7 @@ body {
     padding-bottom: 33px;
 }
 
-.contacts-phone{
+.contacts-phone {
     font-style: normal;
     color: var(--text-black-primary);
 }
@@ -596,7 +613,7 @@ body {
     align-items: center;
 }
 
-.top-of-mailing-list{
+.top-of-mailing-list {
     padding-bottom: 22px;
 }
 
@@ -625,6 +642,12 @@ body {
     padding-top: 144px;
     padding-bottom: 56px;
 }
+
+.free {
+    padding-left: 220px;
+}
+
+.verify {}
 
 .subscribe-email {
     min-width: 100px;
@@ -685,13 +708,13 @@ body {
     font-style: normal;
 }
 
-.contacts-description{
+.contacts-description {
     translate: 0px 6px;
     padding-bottom: 15px;
     width: 500px;
 }
 
-.contacts-address{
+.contacts-address {
     translate: 0px -6px;
 }
 
@@ -842,7 +865,6 @@ body {
 }
 
 
-
 /* Catalog  */
 
 .catalog-products {
@@ -896,6 +918,35 @@ body {
 .sort-header-container {
     display: flex;
     padding: 25px 40px;
+    gap: 227px;
+}
+
+.select-control {
+    border: none;
+    background: none;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.up-down-wrapper {
+    display: flex;
+    padding: 5px;
+    opacity: 0.3;
+}
+
+.change-direction-button-up {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.change-direction-button-down {
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .cards-field {
@@ -1040,9 +1091,15 @@ body {
 }
 
 
-
-
 /* catalog form  */
+
+.control-input-radio:focus + .control-label-radio::before {
+    box-shadow: 0 0 0 2px #AF4FFF;
+}
+
+.control-input-checkbox:focus + .control-label-checkbox::before {
+    box-shadow: 0 0 0 2px #AF4FFF;
+}
 
 .catalog-filter {
     margin: 25px 60px;
@@ -1061,6 +1118,8 @@ body {
     position: absolute;
     height: 2px;
     background-color: var(--bg-black-primary);
+    left: 10px;
+    width: 136px;
 }
 
 .range-toggle {
@@ -1144,12 +1203,16 @@ body {
 
 .control-input-checkbox {
     display: none;
+    position: absolute;
+    opacity: 0;
 }
 
 .control-label-radio {
     cursor: pointer;
     position: relative;
     padding-left: 36px;
+    position: absolute;
+    opacity: 0;
 }
 
 .control-label-radio::before {
@@ -1189,8 +1252,6 @@ body {
 }
 
 
-
-
 /*footer*/
 
 .page-footer {
@@ -1222,7 +1283,9 @@ body {
 
 .footer-media-list {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
+    max-width: 500px;
     padding: 0;
     margin: 0;
     align-items: center;
