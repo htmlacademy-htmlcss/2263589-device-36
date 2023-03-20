@@ -98,7 +98,7 @@ body {
 
 .header-search-input {
     min-width: 359px;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -110,7 +110,7 @@ body {
 }
 
 .header-search-button {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     position: relative;
     font-size: 16px;
@@ -137,7 +137,7 @@ body {
 }
 
 .header-link-top {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -185,7 +185,7 @@ body {
 }
 
 .page-navigation-item {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -217,7 +217,7 @@ body {
 }
 
 .header-categories-item {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -253,7 +253,7 @@ body {
 
 .slider-card-title {
     margin: 0;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -264,7 +264,7 @@ body {
 .slider-card-description {
     margin: 0;
     margin-top: 30px;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -284,7 +284,7 @@ body {
 }
 
 .slider-description {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -293,7 +293,7 @@ body {
 }
 
 .slider-item-characteristic {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -332,7 +332,7 @@ body {
 }
 
 .product-categories-description {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -431,7 +431,7 @@ body {
     border: none;
     background: none;
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -462,7 +462,7 @@ body {
 
 .extra-description-title {
     position: relative;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -472,7 +472,7 @@ body {
 }
 
 .extra-description {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -500,7 +500,7 @@ body {
 
 .about-product {
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -536,7 +536,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -582,7 +582,7 @@ body {
 .about-company-title,
 .contacts-title,
 .mailing-list-title {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -628,7 +628,7 @@ body {
 
 .subscribe-email {
     min-width: 100px;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -643,7 +643,7 @@ body {
 .subscribe-button {
     padding: 0px 36px;
     width: 253px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.2em;
@@ -709,7 +709,7 @@ body {
 }
 
 .comunication {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -735,7 +735,7 @@ body {
 }
 
 .inner-header-title {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -790,7 +790,7 @@ body {
 
 .write-us {
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -829,7 +829,7 @@ body {
 
 .about-us {
     text-align: center;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     width: 270px;
     font-style: normal;
     font-weight: 800;
@@ -856,7 +856,7 @@ body {
 
 .filter-title,
 .sort-title {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -877,7 +877,7 @@ body {
 }
 
 .show-button {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -936,7 +936,7 @@ body {
 
 .button-show-more {
     cursor: pointer;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 16px;
@@ -961,7 +961,7 @@ body {
     cursor: pointer;
     background: none;
     border: none;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -970,7 +970,7 @@ body {
 
 .pagination-button-prev,
 .pagination-button-next {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -1027,7 +1027,7 @@ body {
 
 .show {
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -1095,7 +1095,7 @@ body {
 }
 
 .catalog-filter-title {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -1181,7 +1181,7 @@ body {
 }
 
 .control-span {
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1204,7 +1204,7 @@ body {
 }
 
 .footer-address {
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -1232,7 +1232,7 @@ body {
 }
 
 .footer-media-item {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
