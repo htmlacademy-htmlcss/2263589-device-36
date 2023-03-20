@@ -683,6 +683,7 @@ body {
 .contacts-description{
     translate: 0px 6px;
     padding-bottom: 15px;
+    width: 500px;
 }
 
 .contacts-address{
@@ -1218,7 +1219,7 @@ body {
     padding: 0;
     justify-content: center;
     margin: 0;
-    translate: 33px 15px;
+    translate: 19px 17px;
 }
 
 .social-media-item {}
@@ -1235,7 +1236,7 @@ body {
 
 .executor-logo {
     display: block;
-    translate: 30px 21px;
+    translate: 0px 21px;
 }
 
 .footer-social-link {
