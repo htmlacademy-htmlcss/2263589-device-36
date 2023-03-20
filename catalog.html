@@ -86,7 +86,7 @@
                                 <legend class="catalog-filter-title">Стоимость</legend>
                                 <div class="range">
                                     <div class="range-scale">
-                                        <div class="range-bar" style="left: 42px; width: 136px">
+                                        <div class="range-bar">
                                             <button class="range-toggle toggle-min"> <span class="visually-hidden">Изменить минимальную цену.</span> </button>
                                             <button class="range-toggle toggle-max"> <span class="visually-hidden">Изменить максимальную цену.</span> </button>
                                         </div>
@@ -150,8 +150,14 @@
                             <option value="cheap">Дешевые</option>
                             <option value="expensive">Дорогие</option>
                         </select>
-                        <button class="change-direction-button-up">Up</button>
-                        <button class="change-direction-button-down">Down</button>
+                        <div class="up-down-wrapper">
+                        <button class="change-direction-button-up"><svg class="button-up" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 0L11.5 10H0.5" fill="black"/>
+                        </svg></button>
+                        <button class="change-direction-button-down"><svg class="button-down" width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6 10L0.499999 9.61651e-07L11.5 0" fill="black"/>
+</svg></button>
+                        </div>
                     </div>
                     <div class="cards-field">
                         <ul class="product-list">
