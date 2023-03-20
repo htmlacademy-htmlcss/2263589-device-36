@@ -85,10 +85,15 @@ body {
     translate: 0px -6px;
 }
 
-.header-search-wrapper {
+.header-search-wrapper {    
     border-radius: 20px;
     border: 2px solid var(--bg-black-primary);
     display: flex;
+}
+
+.icon-search{
+    position: absolute;
+    left: -343px;
 }
 
 .header-search-input {
@@ -107,6 +112,7 @@ body {
 .header-search-button {
     font-family: 'Rubik';
     font-weight: 400;
+    position: relative;
     font-size: 16px;
     line-height: 20px;
     cursor: pointer;
@@ -277,8 +283,6 @@ body {
     translate: 0px 32px;
 }
 
-.slider-item {}
-
 .slider-description {
     font-family: 'Rubik';
     font-style: normal;
@@ -435,6 +439,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--text-black-primary);
+    padding-left: 80px;
 }
 
 .extra-info-description-list {
@@ -454,8 +459,6 @@ body {
     position: relative;
     translate: -3px 4px;
 }
-
-.extra-description-text {}
 
 .extra-description-title {
     position: relative;
@@ -506,6 +509,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--text-black-primary);
+    padding: 29px;
 }
 
 
@@ -789,6 +793,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--text-black-primary);
+    padding: 24px;
 }
 
 .about-us-wrapper {
@@ -842,10 +847,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-
-.left-column {}
-
-.right-column {}
 
 .filter-title,
 .sort-title {
@@ -1194,12 +1195,12 @@ body {
     color: white;
     font-size: 16px;
     line-height: 20px;
-    translate: 45px -4px
+    translate: 45px -4px;
 }
 
 .executor-logo {
     display: block;
-    padding: 0;
+    translate: 30px 21px;
 }
 
 .footer-social-link {
